@@ -1,34 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Ping coming soon page</title>
+  </head>
+  <body class="mx-auto">
+    <header class="">
+      <h1 class="text-3xl mt-8 font-semibold uppercase text-center pb-3">
+        ping <span class="text-blue-900">.</span>
+      </h1>
+    </header>
+    <div class="text-5xl text-gray-400 text-center font-light">
+      We are launching <span class="font-semibold text-black">soon!</span>
+    </div>
+    <div class="text-xl text-center">Subscribe and get notified</div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <div class="flex flex-row ml-20 pl-20 my-4">
+      <input
+        type="text"
+        class="border px-4 rounded-full w-2/4 outline-none"
+        placeholder="Your email Address"
+      />
+      <a
+        href="#"
+        class="text-center p-2 rounded-full shadow-lg bg-blue-600 text-gray-100 ml-3 w-1/4"
+        >Notify Me</a
+      >
+    </div>
+    <img
+      src="/images/illustration-dashboard.png"
+      class="py-12 w-4/5 mx-auto"
+      alt="Dashboard"
+    />
+    <div class="flex flex-row mt-4 justify-center">
+      <a href="#"
+        ><i
+          class="fab fa-facebook-f p-4 border text-xl mx-2 rounded-full text-blue-400"
+        ></i
+      ></a>
+      <a href="#"
+        ><i
+          class="fab fa-twitter p-4 border text-xl mx-2 rounded-full text-blue-400"
+        ></i
+      ></a>
+      <a href="#"
+        ><i
+          class="fab fa-instagram p-4 border text-xl mx-2 rounded-full text-blue-400"
+        ></i
+      ></a>
+    </div>
+    <div class="p-2 mt-3 text-center">
+      &copy; Copyright Ping. All rights reserved.
+    </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="text-center">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#" class="text-blue-400">Shubham Singh</a>.
+      </p>
+    </footer>
+  </body>
 </html>
